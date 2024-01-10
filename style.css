@@ -3,9 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
+    background-color: #0f0f10;
 }
 header{
-    background-color: #0f0f10;
     color: #fff;
     width: 100%;
     height: 100vh;
@@ -30,4 +30,58 @@ nav ul li{
 .logo img{
     width: 40px;
     height: 40px;
+}
+
+/* first section start */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.banner img{
+    width: 300px;
+    height: 700px;
+    position: relative;
+    bottom: 230px;
+}
+.banner-title h1{
+    font-size: 150px;
+   background: -webkit-linear-gradient(#acacac, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+.banner-title h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.banner-title h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d8d8d8;
+}
+.banner-title p{
+    width: 400px;
+    color: #767879;
+    font-size: 18px;
+   padding-top: 18px;
+}
+.bnr-btn{
+    background-color: #000000;
+    width: 215px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 20px;
+    border-radius: 11px;
+    margin-top: 45px;
+}
+.bnr-btn h5{
+    background: none;
+}
+.bnr-btn h4{
+    background: none;
 }

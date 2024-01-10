@@ -16,6 +16,60 @@ nav{
     border-radius: 30px;
 }
 
+/* first section start */
+
+.banner{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.banner img{
+    background: none;
+    width: 250px;
+    height: 450px;
+    position: absolute;
+    bottom: 300px;
+    left: 40px;
+}
+.banner-title{
+    margin-inline: 20px;
+}
+.banner-title h1{
+    font-size: 100px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.banner-title h2{
+    font-size: 50px;
+    background: none;
+    padding-bottom: 70px;
+    position: absolute;
+}
+
+.banner-title h3{
+    background: none;
+    position: absolute;
+    top: 320px;
+    left: 25px;
+  
+}
+.banner-title p{
+    position: absolute;
+    width: 300px;
+    font-size: 16px;
+    top: 340px;
+    left: 25px;
+    background: none;
+}
+.bnr-btn{
+    position: absolute;
+    width: 170px;
+    gap: 10px;
+    padding: 11px 14px;
+    border-radius: 11px;
+    top: 460px;
+}
 }
 
 @media screen and (min-width:577px) and (max-width:768px) {
@@ -43,33 +97,144 @@ nav{
     .log-p{
         display: block;
     }
-    
-    }
+
+    /* first section start */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.banner img{
+    background: none;
+    width: 260px;
+    height: 480px;
+    position: absolute;
+    bottom: 220px;
+    left: 20px;
+}
+.banner-title{
+    margin-inline: 20px;
+}
+.banner-title h1{
+    font-size: 90px;
+    position: relative;
+    top: 20px;
+    left: 115px;
+}
+.banner-title h2{
+    font-size: 50px;
+    background: none;
+    padding-bottom: 50px;
+    position: relative;
+    left: 100px;
+}
+.banner-title h3{
+    background: none;
+    position: relative;
+    left: 104px;
+}
+.banner-title p{
+    position: relative;
+    width: 350px;
+    font-size: 16px;
+    left: 104px;
+    background: none;
+}
+.bnr-btn{
+    position: relative;
+    width: 170px;
+    gap: 10px;
+    padding: 11px 14px;
+    border-radius: 11px;
+    left: 104px;
+}
+
+}
 
 
 
-    @media screen and (min-width:769px) and (max-width:992px) {
+@media screen and (min-width:769px) and (max-width:992px) {
 
-        nav{
-            padding: 20px 30px;
-            align-items: center;
-        }
-        nav ul{
-            display: flex;
-            list-style: none;
-            font-size: 18px;
-            gap: 80px; 
-        }
-        .log{
-            background-color: aliceblue;
-            color: black;
-            padding: 5px 15px;
-            border-radius: 30px;
-        }
-        .log-p{
-            display: none;
-        }
-    
+ nav{
+   padding: 20px 30px;
+   align-items: center;
+ }
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    gap: 80px; 
+}
+.log{
+    background-color: aliceblue;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.log-p{
+    display: none;
+}
+
+
+ /* first section responsive work start */
+        
+.banner{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.banner img{
+    background: none;
+    width: 290px;
+    height: 600px;
+    position: absolute;
+    bottom: 230px;
+    left: 40px;
+}
+.banner-title{
+    margin-inline: 20px;
+}
+.banner-title h1{
+    font-size: 130px;
+    position: relative;
+    top: 20px;
+    left: 125px;
+}
+.banner-title h2{
+    font-size: 50px;
+    background: none;
+    padding-bottom: 50px;
+    position: relative;
+    left: 110px;
+}
+.banner-title h3{
+    background: none;
+    position: relative;
+    left: 110px;
+}
+.banner-title p{
+    position: relative;
+    width: 350px;
+    font-size: 16px;
+    left: 110px;
+    background: none;
+}
+.bnr-btn{
+    position: relative;
+    width: 170px;
+    gap: 10px;
+    padding: 11px 14px;
+    border-radius: 11px;
+    left: 110px;
+}
+
+}
+        
+        
+        
+        
+
     }
 
 
